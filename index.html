@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced HTML text 2</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Advanced text semantics</h1>
+
+    <p>Let's start with a quote:</p>
+
+    <blockquote
+      cite="https://developer.mozilla.org/en-US/docs/Learn/Accessibility"
+    >
+      By default, <abbr title="Hypertext Markup Language">HTML</abbr> is
+      accessible, if used correctly.
+    </blockquote>
+
+    <p>
+      <abbr title="Cascading Style Sheets">CSS</abbr> can also be used to make
+      web pages more, or less, accessible.
+    </p>
+
+    <p>
+      Chemical Formulae: H<sub>2</sub>O (Water), C<sub>2</sub>H<sub>6</sub>O
+      (Ethanol).
+    </p>
+
+    <p>
+      Dates:
+      <time datetime="2019-12-20"
+        >December 25<sup>th</sup> 2019 (Christmas Day)</time
+      >,
+      <time datetime="2019-11-02"
+        >November 2<sup>nd</sup> 2019 (Día de los Muertos)</time
+      >.
+    </p>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
